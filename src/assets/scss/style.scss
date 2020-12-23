@@ -1,0 +1,15 @@
+ /* Import Font Awesome Icons Set */
+ $fa-font-path: '~font-awesome/fonts/';
+ @import '@fortawesome/fontawesome-free/scss/fontawesome.scss'; 
+ @import 'node_modules/bootstrap/scss/bootstrap.scss';
+ @import 'node_modules/bootstrap-vue/src/index.scss';
+ 
+body{
+    margin: 0px;
+    background-color: #eeeeee;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    
+}
+.productos {
+    margin: auto;
+}
